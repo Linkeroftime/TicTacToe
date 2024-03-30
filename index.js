@@ -68,12 +68,12 @@ for (var i = 0; i < box.length; i++) {
     })
 }
 
-for(var i=0; i<box.length; i++){
+for (var i=0; i<box.length; i++) {
     document.querySelectorAll(".square")[i].addEventListener("click", function(){
-        if(this.innerHTML === ""&& output.length%2 === 0){
+        if (this.innerHTML === ""&& output.length%2 === 0) {
             this.innerHTML = "X"
             output.push("x");
-        }else if(this.innerHTML === ""&& output.length%2 !== 0){
+        } else if(this.innerHTML === ""&& output.length%2 !== 0) {
             this.innerHTML = "O";
             output.push("o");
         }
